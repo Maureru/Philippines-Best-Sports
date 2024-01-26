@@ -1,0 +1,21 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+h3 {
+  text-align: center;
+  animation: ups 2s infinite;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@keyframes ups {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(-20px);}
+  100% {transform: translateY(0);}
+}
