@@ -34,11 +34,12 @@ function App() {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>{ids.toUpperCase()}</title>
-                <meta name="description" content={`${links[ids].name}`} />
+                <title>One</title>
+                <meta name="description" content="Linked to the moon" />
             </Helmet>
-            <h1>{ids}</h1>
-            <h3>Please Wait</h3>
+            <h1>Let's go!</h1>
+            <h2>Philippines</h2>
+            <h4>Sports Best</h4>
         </div>
     );
 }
